@@ -7,7 +7,7 @@
 
 A student-led, hands-on workshop series for understanding firmware, disks, operating-system installation, bootloaders, and recovery.
 
-[🌐 Open the website](https://shaiinarab.github.io/bootcraft-workshops/) · [🧭 Learning path](docs/PROGRAM.md) · [🛡️ Lab safety](docs/LAB-SAFETY.md) · [📚 References](docs/REFERENCES.md)
+[🌐 Live website (Vercel)](https://bootcraft-workshops.vercel.app/) · [GitHub Pages URL](https://shaiinarab.github.io/bootcraft-workshops/) · [🧭 Learning path](docs/PROGRAM.md) · [🛡️ Lab safety](docs/LAB-SAFETY.md) · [📚 References](docs/REFERENCES.md)
 
 ![GitHub Pages](https://img.shields.io/badge/site-GitHub%20Pages-c7f36b?labelColor=101820&style=flat-square)
 ![Status](https://img.shields.io/badge/status-foundation%20in%20progress-ff8059?labelColor=101820&style=flat-square)
@@ -88,7 +88,7 @@ Open `http://localhost:8080`.
 
 The repository includes a GitHub Actions workflow at `.github/workflows/pages.yml`. In the repository's **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source once. Every push to `main` then publishes the static site automatically.
 
-Expected URL: https://shaiinarab.github.io/bootcraft-workshops/
+GitHub Pages URL: https://shaiinarab.github.io/bootcraft-workshops/\n\n**One-time setup still required:** the current GitHub App connection cannot create the Pages site through the API. The repository owner must open **Settings → Pages → Build and deployment → Source → GitHub Actions** once. The workflow already contains the deployment configuration; after Pages is enabled, the next push to `main` will publish there. Until then, the public Vercel deployment above serves the current static site snapshot.
 
 ## Project status
 
