@@ -1,0 +1,26 @@
+name: Propose workshop content
+description: Suggest a lesson, lab, reference, or translation.
+title: "[CONTENT] "
+labels: ["content"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should be added or improved?
+      description: Describe the learner need and the proposed change.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Link official or primary documentation where possible.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: This proposal does not require destructive actions on personal devices.
+          required: true
