@@ -7,7 +7,7 @@
 
 A student-led, hands-on workshop series for understanding firmware, disks, operating-system installation, bootloaders, and recovery.
 
-[🌐 GitHub Pages website](https://shaiinarab.github.io/bootcraft-workshops/) · [Vercel preview](https://bootcraft-workshops.vercel.app/) · [🧭 Learning path](docs/PROGRAM.md) · [🛡️ Lab safety](docs/LAB-SAFETY.md) · [📚 References](docs/REFERENCES.md)
+[🌐 GitHub Pages website](https://shaiinarab.github.io/bootcraft-workshops/) · [Vercel preview](https://bootcraft-workshops.vercel.app/) · [🧭 Learning path](docs/PROGRAM.md) · [🛡️ Lab safety](docs/LAB-SAFETY.md) · [📚 References](docs/REFERENCES.md) · [📖 Glossary (FA/EN)](docs/GLOSSARY.md) · [✅ Assessment rubric](docs/ASSESSMENT.md)
 
 ![GitHub Pages](https://img.shields.io/badge/site-GitHub%20Pages-c7f36b?labelColor=101820&style=flat-square)
 ![Status](https://img.shields.io/badge/status-foundation%20in%20progress-ff8059?labelColor=101820&style=flat-square)
